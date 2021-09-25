@@ -34,25 +34,25 @@ main {
     z-index: 2;
 }
 
-
 .navindex .ulindex {
     list-style-type: none;
-    margin: 0;
-    
-    overflow: hidden;
     color: black;
-    
+    border-bottom: 1px solid transparent; 
+    padding: 0px;
   }
   
   .navindex .ulindex .liindex {
-    margin: 10px;
     float: left;
+    padding: 10px;
+    position:relative;
   }
 
   .navindex .ulindex .liindex:hover{
     background-color:black;
     color:white;
     cursor:pointer;
+    border-bottom: 5px solid#38b6ff;
+    margin-bottom: -5px;
     }
   
 .logo
@@ -162,7 +162,6 @@ main {
   text-justify: inter-word;
   
 }
-
 
   @media (max-width:420px) {
     .wrapper .form .inputfield{
