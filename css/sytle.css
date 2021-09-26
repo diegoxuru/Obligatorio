@@ -240,15 +240,6 @@ main {
         margin: 10% 0% 10% 0%;
         z-index: 1;
       }
-     
-      #bgvid {
-        object-fit:repeat;
-        position: fixed;
-        top: 0;
-        left: 0;
-        opacity: 0.4;
-        z-index: 0;
-      }
       .wrapperleft p{
         font-size: 17px;
       }
@@ -260,3 +251,48 @@ main {
         margin-left:10px;
       }
 }
+      @media (max-width: 360px) {
+
+        main{
+          display: grid;
+          justify-content: center;
+        }
+    
+        header {
+          display: grid;
+          align-items: center;
+          grid-template-columns: 4fr 4fr;
+          grid-area: header;
+          z-index: 1;
+          }
+    
+          .wrapperright{
+            display: grid;
+            border: 1px solid black ;
+            float:none;
+            margin-bottom: 30px;
+            padding: 30px;
+    
+           
+          }
+          .wrapperleft{
+            
+            float:none;
+            justify-content: center;
+            color: black;
+            max-width: 350px;
+            margin: 10% 0% 10% 0%;
+            z-index: 1;
+          }
+         
+          .wrapperleft p{
+            font-size: 10px;
+          }
+          .wrapperleft .h1index{
+            font-size: 15px;
+            font-weight: 900;
+          }
+          .logo{
+            margin-left:10px;
+      }
+}   
