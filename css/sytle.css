@@ -31,7 +31,7 @@ main {
   background: rgba(black, 0.66);
   z-index: 2;
 }
-
+/***NAV***/
 .navindex .ulindex {
   list-style-type: none;
   color: black;
@@ -56,7 +56,7 @@ main {
 .logo {
   margin-left: 40px;
 }
-
+/***TEXTOINTRO***/
 .wrapperleft {
   float: left;
   color: black;
@@ -74,7 +74,7 @@ main {
   font-size: 52px;
   font-weight: 900;
 }
-
+/***LOGIN***/
 .wrapperright {
   float: right;
   border: 1px solid black;
@@ -168,7 +168,7 @@ main {
 .wrapperright .form .inputfield:last-child {
   margin-bottom: 0;
 }
-
+/***FOOTER***/
 footer {
   display: grid;
   color: black;
@@ -193,7 +193,7 @@ footer {
   opacity: 0.4;
   z-index: 0;
 }
-
+/***MEDIAQUERYS***/
 @media (max-width: 1260px) {
   main {
     display: grid;
@@ -236,11 +236,7 @@ footer {
   }
 }
 
-
-
-@media (max-width: 460px) {
-
-
+@media (max-width: 480px) {
   header {
     display: grid;
     align-items: center;
