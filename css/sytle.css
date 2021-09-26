@@ -70,7 +70,29 @@ main {
     padding: 30px;
     position: relative;
     z-index: 1;
+    animation: pulse 3s infinite;
   }
+
+  @keyframes pulse {
+    0% {
+
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, .5);
+    }
+
+    50% {
+
+        box-shadow: 0 0 0 25px rgba(256, 256, 256, 0);
+    }
+
+    70% {
+
+        box-shadow: 0 0 0 40px rgba(256, 256, 256, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, 0);
+    }
+}
+
   .wrapperleft{
     float:left;
     color: black;
