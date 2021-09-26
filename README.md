@@ -1,4 +1,5 @@
 # Obligatorio
+PRIMERA ENTREGA --------------- 26/09/21
 
 Descripción del proyecto:
 
@@ -9,6 +10,6 @@ Lecciones aprendidas:
 
  - El haber entendido como funciona un grid me da la posiblidad a futuro de crear el esqueleto del sitio desde 0, sin depender de planillas, y sobre esa base si utilizar otras herramientas.
 
-Cosas que me quedaron pendientes para esta entrega:
+Cosas que me quedaron pendientes para la 1er entrega:
 
-- Me hubiese gustado agregar el "menu hamburguesa" responsivo en mi nav. Estuve viendo opciones en internet para hacerlo sin ayuda de frameworks y se me hacian con demasiado codigo, muchisimos conceptos y no queria terminar agregando algo que no lo tuviese claro al 100% solamente por agregarlo. 
+- Me hubiese gustado agregar el "menu hamburguesa" responsivo en mi nav. Estuve viendo opciones en internet para hacerlo sin ayuda de frameworks y se me hacian con demasiado código, muchisimos conceptos y no queria terminar agregando algo que no lo tuviese claro al 100% solamente por agregarlo. 
