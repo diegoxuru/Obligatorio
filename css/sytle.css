@@ -197,7 +197,7 @@ main {
 }
 
 #bgvid {
-  object-fit:fill;
+  object-fit:cover;
   position: fixed;
   top: 0;
   left: 0;
@@ -218,9 +218,7 @@ main {
       display: grid;
       align-items: center;
       grid-template-columns: 4fr 4fr;
-      background-color: white;
       grid-area: header;
-      position: relative;
       z-index: 1;
       }
 
@@ -228,14 +226,9 @@ main {
         display: grid;
         border: 1px solid black ;
         float:none;
-        max-width: 500px;
-        width: 100%;
-        background:white;
-        box-shadow: 5px 5px 5px rgba(0,0,0,0.125);
         margin-bottom: 30px;
         padding: 30px;
-        z-index: 1;
-        animation: pulse 3s infinite;
+
        
       }
       .wrapperleft{
@@ -243,19 +236,27 @@ main {
         float:none;
         justify-content: center;
         color: black;
-        max-width: 500px;
-        width: 100%;
+        max-width: 350px;
         margin: 10% 0% 10% 0%;
-        position:static;
         z-index: 1;
       }
      
       #bgvid {
-        object-fit:initial;
+        object-fit:repeat;
         position: fixed;
         top: 0;
         left: 0;
         opacity: 0.4;
         z-index: 0;
+      }
+      .wrapperleft p{
+        font-size: 17px;
+      }
+      .wrapperleft .h1index{
+        font-size: 30px;
+        font-weight: 900;
+      }
+      .logo{
+        margin-left:10px;
       }
 }
