@@ -108,6 +108,7 @@ main {
   }
   .wrapperleft .h1index{
     font-size: 52px;
+    font-weight: 900;
   }
   
   .wrapper .title{
@@ -115,6 +116,7 @@ main {
     margin-bottom: 25px;
     color: black ;
     text-align: center;
+    font-weight: bold;
   }
   
   .wrapper .form{
