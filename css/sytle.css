@@ -209,9 +209,7 @@ footer {
   }
 
   .wrapperright {
-    display: grid;
     border: 1px solid black;
-    float: none;
     margin-bottom: 30px;
     padding: 30px;
   }
@@ -221,7 +219,7 @@ footer {
     justify-content: center;
     color: black;
     max-width: 350px;
-    margin: 10% 0% 10% 0%;
+    margin: 10% 0% 15% 0%;
     z-index: 1;
   }
   .wrapperleft p {
