@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>MOVING - Transportes</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/sytle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <video
+      playsinline
+      autoplay
+      muted
+      loop
+      id="bgvid"
+      height="100%"
+      width="100%"
+    >
+      <source src="./recursos/vid/production_ID_4553294.mp4" type="video/mp4" />
+    </video>
+    <header>
+      <img
+        class="logo"
+        src="./recursos/img/moveing.png"
+        width="auto"
+        height="auto"
+      />
+      <nav class="navindex">
+        <ul class="ulindex">
+          <li class="liindex">Quienes Somos</li>
+          <li class="liindex">Pricing</li>
+          <li class="liindex">Contacto</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="wrappercenter">
+        <div class="title">Registrate</div>
+        <div class="form">
+          <div class="inputfield">
+            <label>Email:</label>
+            <input type="text" class="input" id="mail" />
+          </div>
+          <div class="inputfield">
+            <label>Contraseña:</label>
+            <input type="password" class="input" id="password" />
+          </div>
+          <div class="inputfield">
+            <label>Nombre:</label>
+            <input type="text" class="input" id="name" />
+          </div>
+          <div class="inputfield">
+            <label>Apellido:</label>
+            <input type="text" class="input" id="lastname" />
+          </div>
+          <div class="inputfield">
+            <label>Direccion:</label>
+            <input type="text" class="input" id="addrs" />
+          </div>
+          <div class="inputfield">
+            <label>Celular:</label>
+            <input type="text" class="input" id="cel" />
+          </div>
+          <table class="tablaform">
+            <tr>
+               <td>
+                   <div class="inputfield" id="registro">
+                      <input type="submit" id="botonregistro" value="Registrate" class="btnlogin">
+                   </div>
+               </td>
+               <td>
+                   <div class="inputfield" id="plan">
+                      <input type="submit" value="Volver a Index" class="btnchooseplan" onclick="window.location.href='./index.html'">
+                   </div>
+               </td>
+            </tr>
+          </table>
+          <label id="error" style="color: red"></label>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="FooterParrafo">
+        <img
+          src="./recursos/img/Black-and-white-Whatsapp-logo-vector-PNG.png"
+          width="50px"
+          height="50px"
+        />
+        <img
+          src="./recursos/img/Black-icon-facebook-logo-PNG.png"
+          width="50px"
+          height="50px"
+        />
+        <img
+          src="./recursos/img/Instagram-black-and-white-logo-Premium-vector-PNG-.png"
+          width="50px"
+          height="50px"
+        /><br />
+        Montevideo, Uruguay - 2021
+      </p>
+    </footer>
+    <script type="text/javascript" src="./js/registro.js"></script>
+  </body>
+</html>
