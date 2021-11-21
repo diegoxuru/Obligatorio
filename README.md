@@ -13,3 +13,10 @@ Lecciones aprendidas:
 Cosas que me quedaron pendientes para la 1er entrega:
 
 - Me hubiese gustado agregar el "menu hamburguesa" responsivo en mi nav. Estuve viendo opciones en internet para hacerlo sin ayuda de frameworks y se me hacian con demasiado código, muchisimos conceptos y no queria terminar agregando algo que no lo tuviese claro al 100% solamente por agregarlo. 
+
+SEGUNDA ENTREGA --------------- 21/11/21
+
+Login y endpoints relativos a los objetos a mudar
+
+Cosas que me quedaron pendientes para la 2da entrega:
+El sitio principal de la aplicacion, en esta instancia no lo quise desarrollar porque entiendo que con react voy a tener mas herramientas para plasmar lo que realmente quiero hacer
